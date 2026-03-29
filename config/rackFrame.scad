@@ -5,14 +5,11 @@ fixedSideModules = true;
 
 _profileConfigs = [
     // You can introduce a custom profile like:
-    /*
     ["custom", [
-      ["maxUnitWidth", 180],
-      ["maxUnitDepth", 120],
-      ["numRailScrews", 10]
-    ]], // To generate the stls for this custom profile, you would do:
-        // $ python3 rbuild.py -b all -c custom
-    */
+      ["maxUnitWidth", 205],
+      ["maxUnitDepth", 205],
+      ["numRailScrews", 26]
+    ]],
     ["default", [ // Default config. Will be overwritten by any other profiles
       ["maxUnitWidth", 180],
       ["maxUnitDepth", 180],
